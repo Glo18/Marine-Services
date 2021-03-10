@@ -10,5 +10,5 @@ public class ApiException extends RuntimeException {
 
     public int getStatusCode() {
         return statusCode;
-    } 
+    }
 }
