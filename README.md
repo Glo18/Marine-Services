@@ -44,6 +44,17 @@ Flask
 
 Heroku
 
+## BDD
+Fill the Signup form after you have clicked the sign up button to fill the form.
+
+Click the About us page to view more of us and what we do. 
+
+Also click the Services button to view more of our services.
+
+
+## Bugs
+Currently there are no bugs but i will keep it updated with the latest trends.
+
 ## Contact Information
 [kiogoraspecial@gmail.com] [0746225871]
 
@@ -51,3 +62,35 @@ Heroku
 MIT
 
 © 2021[Gloria-Kiogora]:Scrum master:(https://github.com/Glo18)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Installation and Prerequisites
+
+First Install sdk Install java Install Intellij.
+ 
+
+## Set-up
+Get a computer and internet.
+Clone the repository Git clone repository--link https://github.com/BarakaIan/The-Hero-Squad
+ 
+Move into the directory cd directory name;
+ 
+Open project on code editor code . 
+
+Run the project on live server.
+
+
+
