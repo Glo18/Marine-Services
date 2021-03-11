@@ -1,10 +1,10 @@
 import { Component, OnInit, Input, Output, EventEmitter, OnDestroy } from '@angular/core';
-import { Seat } from '../models/seat.model';
-import { Journey } from '../models/journey.model';
-import { Journey_Route } from '../models/route.model';
+import { Seat } from '../../models/seat.model';
+import { Journey } from '../../models/journey.model';
+import { Journey_Route } from '../../models/route.model';
 import { Router } from '@angular/router';
-import { Ship } from '../models/ship.model';
-import { SelectShipService } from '../services/selectShip.service';
+import { Ship } from '../../models/ship.model';
+import { SelectShipService } from '../../services/selectShip.service';
 import { Subscription } from 'rxjs';
 
 @Component({

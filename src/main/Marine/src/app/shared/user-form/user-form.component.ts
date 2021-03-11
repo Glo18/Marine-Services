@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { Journey } from '../models/journey.model';
-import { BookingService } from '../services/booking.service';
-import { User } from '../models/user.model';
+import { Journey } from '../../models/journey.model';
+import { BookingService } from '../../services/booking.service';
+import { User } from '../../models/user.model';
 import { Router } from '@angular/router';
 
 

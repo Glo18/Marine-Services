@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { SelectShipService } from '../services/selectShip.service';
+import { SelectShipService } from '../../services/selectShip.service';
 import { Router } from '@angular/router';
 import { NgForm } from '@angular/forms';
-import { Journey_Route } from '../models/route.model';
+import { Journey_Route } from '../../models/route.model';
 
 @Component({
   selector: '.select-ship',
