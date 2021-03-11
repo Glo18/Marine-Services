@@ -5,6 +5,7 @@ import { BookingService } from '../services/booking.service';
 import { User } from '../models/user.model';
 import { Router } from '@angular/router';
 
+
 @Component({
   selector: 'app-user-form',
   templateUrl: './user-form.component.html',
@@ -15,16 +16,17 @@ journey: Journey;
 
   constructor(
   private BookingService: BookingService,
-      private route:Router
-      ) { }
+        private route:Router
+  ) { }
 
   ngOnInit() {
-      if(!this.journey){
-        this.route.navigate([''])
-      }
-    }
+  if(!this.journey){
+          this.route.navigate([''])
+  }
 
-    userForm(form: NgForm) {
+}
+
+userForm(form: NgForm) {
       let name = form.value.user_name;
       let mobile_no = form.value.user_mobile;
       let email = form.value.user_email;
@@ -39,4 +41,3 @@ journey: Journey;
     }
 
   }
-

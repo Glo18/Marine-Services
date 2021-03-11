@@ -1,4 +1,3 @@
-
 import { Component, OnInit } from '@angular/core';
 import { SelectShipService } from '../services/selectShip.service';
 import { Router } from '@angular/router';
@@ -48,7 +47,7 @@ place:Place[]=[];
     }
     localStorage.setItem("route", JSON.stringify(route))
     let routeId = form.value.going_to;
-    this.BusService.getRoueId(routeId);
+    this.ShipService.getRoueId(routeId);
     this.router.navigate(['search']);
   }
 
@@ -56,30 +55,30 @@ place:Place[]=[];
 
     let leavingfrom=e.target.value;
     console.log(leavingfrom)
-    if(leavingfrom=='dhaka'){
+    if(leavingfrom=='Alaska'){
       this.place= [
-        {key:'1109001', value:'Comilla'} ,
-        {key:'1109002', value:'Chittagong'} ,
-        {key:'1109004', value:'KuaKata'} ,
-        {key:'1109005', value:'Coxs Bazar'},
-        {key:'1109006', value:'Rajshahi'}
+        {key:'1109001', value:'Maldives'} ,
+        {key:'1109002', value:'Seychelles'} ,
+        {key:'1109004', value:'Peru'} ,
+        {key:'1109005', value:'Florida'},
+        {key:'1109006', value:'Scotland'}
 
       ]
   }
-  else if(leavingfrom=='comilla'){
+  else if(leavingfrom=='Greece'){
     this.place= [
-      {key:'2209002', value:'Chittagong'} ,
-      {key:'2209001', value:'Dhaka'} ,
-      {key:'2209003', value:'Rajshahi'} ,
+      {key:'2209002', value:'Zealand'} ,
+      {key:'2209001', value:'India'} ,
+      {key:'2209003', value:'SA'} ,
 
 
     ]
   }
-  else if(leavingfrom=='chittagong'){
+  else if(leavingfrom=='Maldives'){
     this.place= [
-      {key:'3309003', value:'Mymensingh'} ,
-      {key:'3309001', value:'Dhaka'} ,
-      {key:'3309002', value:'Sylet'} ,
+      {key:'3309003', value:'Florida'} ,
+      {key:'3309001', value:'Alaska'} ,
+      {key:'3309002', value:'Seychelles'} ,
 
     ]
   }
