@@ -1,0 +1,5 @@
+.hero {
+    background-image: url("/assets/img/contact.jpeg") !important;
+    background-size: cover;
+    background-position: center center;
+}

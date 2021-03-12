@@ -1,0 +1,39 @@
+<section class="hero is-primary is-bold">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">Sign Up</h1>
+        </div>
+    </div>
+
+
+<section class="section">
+    <div class="container">
+
+        {{ name }}
+        <form (ngSubmit)="submitForm()">
+
+            <div class="field">
+                <label class="label">Enter your username</label>
+                <input type="text" name="username" class="input" [(ngModel)]="name">
+            </div>
+
+            <div class="field">
+                <label class="label">Enter your email</label>
+                <input type="email" name="email" class="input" [(ngModel)]="email">
+            </div>
+
+            <div class="field">
+                <label class="label">Enter your password</label>
+                <input type="password" name="password" class="input" [(ngModel)]="password">
+            </div>
+
+            <div class="field">
+                <label class="label">Confirm your password</label>
+                <input type="password" name="password" class="input" [(ngModel)]="password">
+            </div>
+
+            <button type="submit" class="button is-large is-warning">Submit</button>
+        </form>
+    </div>
+</section>
+</section>
