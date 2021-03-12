@@ -23,15 +23,32 @@
             </div>
 
             <div class="field">
-                <label class="label">Enter your ship number</label>
-                <input type="number" number="number" class="input" [(ngModel)]="number">
-            </div>
-
-            <div class="field">
                 <label class="label">Enter your password</label>
                 <input type="password" name="password" class="input" [(ngModel)]="password">
             </div>
 
+            <div class="field">
+                <label class="label">Enter your ship number</label>
+                <input type="number" number="number" class="input" [(ngModel)]="number">
+            </div>
+
+            <section class="field">
+            <label for="trip" width='2px' height='2px'>Choose your trip:</label>
+            <select name="country" id="country">
+                <option value="Maldives to Peru">Maldives to Peru</option>
+                <option value="Alaska to Seychelles">Alaska to Seychelles</option>
+                <option value="Florida to Australia">Florida to Australia</option>
+                <option value="Greece to Grenadines">Greece to Grenadines</option>
+                <option value="Peru to Maldives">Peru to Maldives</option>
+                <option value="Seychelles to Alaska">Seychelles to Alaska</option>
+                <option value="Australia to Florida">Australia to Florida</option>
+                <option value="Grenadines to Greece">Grenadines to Greece</option>
+            </select>
+        </section>
+
+        <br>
+        <br>
+        <br>
             <button type="submit" class="button is-large is-warning">Submit</button>
         </form>
     </div>
