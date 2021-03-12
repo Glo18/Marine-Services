@@ -11,6 +11,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { BookingComponent } from './booking/booking.component';
+import { SuccessComponent } from './success/success.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BookingComponent } from './booking/booking.component';
     HeaderComponent,
     FooterComponent,
     ContactComponent,
-    BookingComponent
+    BookingComponent,
+    SuccessComponent
   ],
   imports: [
     BrowserModule,

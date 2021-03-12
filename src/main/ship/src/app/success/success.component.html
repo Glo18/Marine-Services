@@ -1,0 +1,22 @@
+<section class="hero is-primary is-bold">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="text">Thank you for using the Marine Services!</h1>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container">
+        
+            {{ message }}
+            <form (ngSubmit)="submitForm()">
+
+                <div class="field">
+                    <label class="label">Leave a review here!</label>
+                    <textarea id="message" name="message" [(ngModel)]="message"></textarea>
+                </div>
+                <button type="submit"class="button is-large is-success" routerLink = "/">Submit</button>
+            </form>
+        </div>
+    </section>
+</section>

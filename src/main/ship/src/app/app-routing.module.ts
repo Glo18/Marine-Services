@@ -6,6 +6,7 @@ import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
 import { BookingComponent } from './booking/booking.component';
+import { SuccessComponent } from './success/success.component';
 
 const routes: Routes = [
   {
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: 'booking',
     component: BookingComponent
+  },
+  {
+    path: 'success',
+    component: SuccessComponent
   },
   { 
     path: '', redirectTo:"", pathMatch:"full"

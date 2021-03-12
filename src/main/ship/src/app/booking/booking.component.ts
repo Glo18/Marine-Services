@@ -15,8 +15,6 @@ export class BookingComponent implements OnInit {
 
   ngOnInit() {}
 
-  submitForm() {
-    
-  }
+  submitForm() {}
 
 }
