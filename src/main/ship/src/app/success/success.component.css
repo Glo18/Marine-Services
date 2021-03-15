@@ -1,0 +1,8 @@
+.hero {
+    background-image: url("/assets/img/review.jpeg") !important;
+    background-size: cover;
+    background-position: center center;
+}
+.label {
+    color: white;
+}

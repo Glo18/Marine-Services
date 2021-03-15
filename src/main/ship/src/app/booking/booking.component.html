@@ -1,9 +1,9 @@
 <section class="hero is-primary is-bold">
-    <div class="hero-body">
-        <div class="container">
+    <!-- <div class="hero-body">
+         <div class="container">
             <h1 class="title">Bookings</h1>
-        </div>
-    </div>
+        </div> 
+    </div> -->
 
 
 <section class="section">
@@ -13,28 +13,30 @@
         <form (ngSubmit)="submitForm()">
 
             <div class="field">
-                <label class="label">Enter your username</label>
-                <input type="text" name="username" class="input" [(ngModel)]="name">
+                <label class="label">Enter your name</label>
+                <input type="text" name="username" class="number" [(ngModel)]="name">
             </div>
+<!-- 
+            <div class="field">
+                <label class="label">Enter your ticket number</label>
+                <input type="number" name="number" class="number" [(ngModel)]="number">
+            </div> -->
 
             <div class="field">
-                <label class="label">Enter your email</label>
-                <input type="email" name="email" class="input" [(ngModel)]="email">
-            </div>
-
-            <div class="field">
-                <label class="label">Enter your password</label>
-                <input type="password" name="password" class="input" [(ngModel)]="password">
+                <label class="label">Enter number of passengers</label>
+                <input type="number" name="number" class="number" [(ngModel)]="number">
             </div>
 
             <div class="field">
                 <label class="label">Enter your ship number</label>
-                <input type="number" number="number" class="input" [(ngModel)]="number">
+                <input type="number" number="number" class="number" [(ngModel)]="number">
             </div>
 
             <section class="field">
-            <label for="trip" width='2px' height='2px'>Choose your trip:</label>
-            <select name="country" id="country">
+                <div class="trip">
+            <label for="trip">Choose your trip:</label> 
+            </div>
+            <select name="country" id="country" class="number">
                 <option value="Maldives to Peru">Maldives to Peru</option>
                 <option value="Alaska to Seychelles">Alaska to Seychelles</option>
                 <option value="Florida to Australia">Florida to Australia</option>
